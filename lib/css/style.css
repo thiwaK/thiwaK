@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Agustina;
+    src: url(/lib/font/Agustina.woff);
+}
+
+@font-face {
+    font-family: NotoSans;
+    src: url(/lib/font/NotoSans-Regular.ttf);
+}
+
+.logo-name {
+    font-family: Agustina !important;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+.nav-item{
+    font-family: NotoSans !important;  
+}
+
+.w-100 {
+    object-fit: cover;
+    width: 100% !important;
+    height: 75vh;
+}
+
+#about{
+    color: #dcd9d9;
+    background-color: #2f3241;
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9;
+}
+#education {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+}
+
+.education-container {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    text-align: left;
+}
+.education-container span {
+    color: #74808a;
+    float: right;
+}
+.education-container p {
+    padding-top: 20px;
+}
