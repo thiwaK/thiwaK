@@ -34,11 +34,11 @@
     font-family: NotoSans !important;  
 }
 
-/* .w-100 {
+.my-carousel-image {
     object-fit: cover;
     width: 100% !important;
     height: 93vh;
-} */
+}
 
 #about{
     color: #dcd9d9;
@@ -73,8 +73,31 @@
     opacity: 1;
     transition: opacity 0.8s ease;
 }
-
 .navbar-hide {
-    pointer-events: none;
+    /* pointer-events: none; */
+    opacity: 0.2;
+}
+.navbar-hide-sd {
+    /* pointer-events: none; */
     opacity: 0;
 }
+
+
+.nav-item {
+    transition: opacity .25s ease-in-out;
+}
+.navbar-nav:hover .nav-item {
+    opacity: 0.25;
+}
+.navbar-nav:hover .nav-item:hover {
+    opacity: 1;
+}
+.navbar-hide:hover .navbar:hover .main-nav:hover {
+    opacity: 1;
+}
+
+.nav-link:hover
+{
+    opacity: 1;
+}
+
