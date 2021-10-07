@@ -2,10 +2,26 @@
     font-family: Agustina;
     src: url(/lib/font/Agustina.woff);
 }
-
 @font-face {
     font-family: NotoSans;
     src: url(/lib/font/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: KaushanScript;
+    src: url(/lib/font/KaushanScript-Regular.otf);
+}
+
+@font-face {
+    font-family: Agustina;
+    src: url(thiwaK/lib/font/Agustina.woff);
+}
+@font-face {
+    font-family: NotoSans;
+    src: url(thiwaK/lib/font/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: KaushanScript;
+    src: url(thiwaK/lib/font/KaushanScript-Regular.otf);
 }
 
 .logo-name {
@@ -18,11 +34,11 @@
     font-family: NotoSans !important;  
 }
 
-.w-100 {
+/* .w-100 {
     object-fit: cover;
     width: 100% !important;
-    height: 75vh;
-}
+    height: 93vh;
+} */
 
 #about{
     color: #dcd9d9;
@@ -34,6 +50,9 @@
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
+}
+.myHeading{
+    font-family: KaushanScript !important; 
 }
 
 .education-container {
@@ -49,4 +68,13 @@
 }
 .education-container p {
     padding-top: 20px;
+}
+.navbar {
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
 }
