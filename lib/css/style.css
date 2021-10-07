@@ -1,17 +1,17 @@
 @font-face {
     font-family: Agustina;
-    src: url(lib/font/Agustina.woff);
+    src: url(../font/Agustina.woff);
 }
 @font-face {
     font-family: NotoSans;
-    src: url(lib/font/NotoSans-Regular.ttf);
+    src: url(../font/NotoSans-Regular.ttf);
 }
 @font-face {
     font-family: KaushanScript;
-    src: url(lib/font/KaushanScript-Regular.otf);
+    src: url(../font/KaushanScript-Regular.otf);
 }
 
-@font-face {
+/* @font-face {
     font-family: Agustina;
     src: url(thiwaK/lib/font/Agustina.woff);
 }
@@ -22,7 +22,7 @@
 @font-face {
     font-family: KaushanScript;
     src: url(thiwaK/lib/font/KaushanScript-Regular.otf);
-}
+} */
 
 .logo-name {
     font-family: Agustina !important;
