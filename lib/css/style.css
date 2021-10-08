@@ -11,18 +11,6 @@
     src: url(../font/KaushanScript-Regular.otf);
 }
 
-/* @font-face {
-    font-family: Agustina;
-    src: url(thiwaK/lib/font/Agustina.woff);
-}
-@font-face {
-    font-family: NotoSans;
-    src: url(thiwaK/lib/font/NotoSans-Regular.ttf);
-}
-@font-face {
-    font-family: KaushanScript;
-    src: url(thiwaK/lib/font/KaushanScript-Regular.otf);
-} */
 
 .logo-name {
     font-family: Agustina !important;
@@ -47,19 +35,19 @@
     border-bottom: 1px solid #dcd9d9;
 }
 #education {
-    padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #dcd9d9;
-    text-align: center;
+    color: #2f3241;
+    background-color: #dcd9d9;
+    padding-top: 75px;
 }
 .myHeading{
     font-family: KaushanScript !important; 
 }
 
 .education-container {
-    max-width: 700px;
+    /* max-width: 700px; */
     margin: 0 auto 30px auto;
-    padding: 15px;
-    border: 1px solid #dcd9d9;
+    padding-left: 50px;
+    /* border: 1px solid #dcd9d9; */
     text-align: left;
 }
 .education-container span {
@@ -75,7 +63,7 @@
 }
 .navbar-hide {
     /* pointer-events: none; */
-    opacity: 0.2;
+    opacity: 0.6;
 }
 .navbar-hide-sd {
     /* pointer-events: none; */
