@@ -27,7 +27,9 @@
     width: 100% !important;
     height: 93vh;
 }
-
+#sticky-footer{
+    padding-top: 150px;
+}
 #about{
     color: #dcd9d9;
     background-color: #2f3241;
