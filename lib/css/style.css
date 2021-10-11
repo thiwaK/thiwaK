@@ -23,6 +23,11 @@
     width: 100% !important;
     height: 93vh;
 }
+.navbar {
+    opacity: 1;
+    /* transition: opacity 0.8s ease; */
+    transition: background-color 0.9s ease;
+}
 
 #about{
     color: #dcd9d9;
@@ -38,29 +43,21 @@
     color: #2f3241;
     background-color: #f2f2f5;
 }
+
 .education-container span {
     color: #74808a;
     float: right;
-}
-.navbar {
-    opacity: 1;
-    /* transition: opacity 0.8s ease; */
-    transition: background-color 0.9s ease;
 }
 .navbar-bg-change {
     /* pointer-events: none; */
     opacity: 1;
     background-color: #2f3241;
 }
-/* .navbar-hide-sd {
-    opacity: 1;
-} */
 .logo-name {
     font-family: Agustina !important;
     font-weight: 700;
     padding: 10px 10px;
 }
-
 .nav-mouseover{
     opacity: 1;
     background-color: #21232e;
