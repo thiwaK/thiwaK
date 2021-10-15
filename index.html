@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav id="navbar_1" class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container-fluid">
 
             <a class="navbar-brand logo-name" id="mobile-logo" href="#">Thiwanka Kauhsal</a>
@@ -34,15 +34,15 @@
                 <ul class="nav navbar-nav w-100 justify-content-center">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselSlider">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link">About</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
 
                     <li class="nav-item">
@@ -50,27 +50,29 @@
                     </li>
                 </ul>
 
-                <ul class="nav navbar-nav w-100 justify-content-end">
+                <ul class="container nav navbar-nav w-100 justify-content-end">
 
-                    <li class="nav-item active">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
-                            class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                        </svg>
-                    </li>
+                    <div class="row">
+                        <li class="nav-item active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </li>
 
-                    <li class="nav-item active">
-                        <div class="col-xs-12" style="width: 25px;"></div>
-                    </li>
+                        <li class="nav-item active">
+                            <div class="col-xs-12" style="width: 25px;"></div>
+                        </li>
 
-                    <li class="nav-item active">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
-                            class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path
-                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                        </svg>
-                    </li>
+                        <li class="nav-item active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                            </svg>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -151,23 +153,51 @@
         </div>
     </div>
 
+    <div id="projects">
+        <div class="container">
+            <div class="row d-flex justify-content-center pt-5 pb-5">
+                <h2 class="heading">Projects</h2>
+            </div>
+
+            <div class="row pt-3 pb-5">
+                <div class="col-3 project shadow-large">
+                    <div class="project-image">
+                        <img src="lib/image/uop_logo.png">
+                    </div>
+                </div>
+                <div class="col-8 project shadow-large">
+                    <div class="project-info">
+                        <h3 class="pb-5">Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam
+                            volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                            eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <div id="education">
         <div class="container-fluid">
 
             <div class="row">
-                <div class="w-100 col-12">
-                    <h2 class="heading w-100 col-12" style="text-align: center;padding-bottom: 40px;">
+                <div class="w-100 pt-2 pb-5 col-12">
+                    <h2 class="heading w-100 col-12 d-flex justify-content-center">
                         Education</h2>
                 </div>
             </div>
 
-            <div class=" row">
+            <div class="row pb-2">
                 <div class="offset-md-2">
                 </div>
 
                 <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-end">
-                    <img src="lib/image/uop_logo.png" class="rounded float-right" alt="UOP" srcset="" height="120hv"
-                        width="120hv">
+                    <img src="lib/image/uop_logo.png" class="rounded float-right" alt="UOP" srcset="" height="130hv"
+                        width="130hv">
                 </div>
 
                 <div class="col-10 ml-15 col-lg-6 mt-5 mt-lg-0">
@@ -185,16 +215,41 @@
         </div>
     </div>
 
-    <div id="projects">
+    <div id="skills">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 text-center align-self-center h-100 w-100">
+                    <h2 class="heading d-flex justify-content-center pt-5">Skills</h2>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="offset-1">
+                </div>
+                <div class="col-10 ">
+                    <ul>
+                        <li>ESRI ArcGIS</li>
+                        <li>QGIS</li>
+                        <li>Microsoft Access</li>
+                        <li>Microsoft Excel</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                        <li>HTML5</li>
 
+                    </ul>
+                </div>
+                <div class="offset-1">
+                </div>
+            </div>
+        </div>
 
     </div>
 
-
-
     <div class="container-fluid">
         <div class="row">
-            <div class="col offset-12" style="height: 200px; background-color: #dcd9d9;">
+            <div class="col offset-12" style="height: 200px; background-color: #f2f2f5;">
             </div>
         </div>
     </div>
@@ -205,12 +260,8 @@
         </div>
     </footer>
 
-
-    <!-- <canvas class="background"></canvas> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script> -->
-
     <script src="lib/js/script.js"></script>
 
 </body>
