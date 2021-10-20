@@ -4,81 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Porpolio</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <meta name="description" content="Thiwanka Kaushal's GIS Portpolio." />
+    <link rel="canonical" href="https://thiwak.github.io/thiwaK/" />
+    <meta property="og:locale" content="en_EN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Thiwanka Kaushal - GIS" />
+    <meta property="og:description" content="Thiwanka Kaushal's GIS Portpolio." />
+    <meta property="og:url" content="https://thiwak.github.io/thiwaK/" />
+    <meta property="og:site_name" content="Thiwanka Kaushal - GIS" />
+    <meta property="og:image" content="https://thiwak.github.io/thiwaK/lib/image/bg1.jpg" />
+    <meta property="og:image:secure_url" content="https://thiwak.github.io/thiwaK/lib/image/bg1.jpg" />
+
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/css/style.css">
 </head>
 
 <body>
 
-    <nav id="navbar_1" class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav id="navbar_1" class="navbar navbar-expand-md fixed-top navbar-dark">
         <div class="container-fluid">
-
-            <a class="navbar-brand logo-name" id="mobile-logo" href="#">Thiwanka Kauhsal</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
-                <ul class="nav navbar-nav w-100 flex-nowrap desktop">
-                    <li class="nav-item active">
-                        <a class="navbar-brand logo-name" id="desktop-logo" href="#">Thiwanka
-                            Kauhsal</a>
-                    </li>
-                </ul>
-
-                <ul class="nav navbar-nav w-100 justify-content-center">
-
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#carouselSlider">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselSlider">Home<span
+                                class="sr-only">(current)</span></a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#education">Education</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link">Blog</a>
-                    </li>
                 </ul>
+            </div>
 
-                <ul class="container nav navbar-nav w-100 justify-content-end">
+            <div class="mx-auto order-0">
+                <div class='navbar-header'>
+                    <a href='#' class='navbar-brand'> ThiwaK </a>
+                </div>
+            </div>
 
-                    <div class="row">
-                        <li class="nav-item active">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
-                                class="bi bi-linkedin" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                            </svg>
-                        </li>
-
-                        <li class="nav-item active">
-                            <div class="col-xs-12" style="width: 25px;"></div>
-                        </li>
-
-                        <li class="nav-item active">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
-                                class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                            </svg>
-                        </li>
-                    </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div id="carouselSlider" class="carousel slide" data-ride="carousel">
+    <section id="carouselSlider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselSlider" data-slide-to="0" class="active"></li>
             <li data-target="#carouselSlider" data-slide-to="1"></li>
@@ -125,7 +113,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </section>
 
     <div id="about">
         <div class="container-fluid">
@@ -159,15 +147,16 @@
                 <h2 class="heading">Projects</h2>
             </div>
 
-            <div class="row pt-3 pb-5">
-                <div class="col-3 project shadow-large">
+            <!-- Project 1 -->
+            <div class="row">
+                <div class="d-none d-md-block col-md-4 col-lg-3 project shadow-large">
                     <div class="project-image">
                         <img src="lib/image/uop_logo.png">
                     </div>
                 </div>
-                <div class="col-8 project shadow-large">
+                <div class="col-10 col-md-7 col-lg-8 project shadow-large">
                     <div class="project-info">
-                        <h3 class="pb-5">Project Name Here</h3>
+                        <h3 class="p-4">Project Name Here</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam
                             volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
@@ -176,9 +165,15 @@
                         <a href="#">View Project</a>
                     </div>
                 </div>
+
             </div>
+            <!-- End of project 1 -->
+
+
 
         </div>
+
+
     </div>
 
     <div id="education">
@@ -196,16 +191,21 @@
                 </div>
 
                 <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-end">
-                    <img src="lib/image/uop_logo.png" class="rounded float-right" alt="UOP" srcset="" height="130hv"
-                        width="130hv">
+                    <img src="lib/image/uop_logo.png" class="rounded float-right d-none d-md-block" alt="UOP">
                 </div>
 
-                <div class="col-10 ml-15 col-lg-6 mt-5 mt-lg-0">
-                    <div class="education-container ml-3 ">
-                        <h4 class="">University of Peradeniye - Sri Lanka</h4>
-                        <span class="education-date"> February 2020 - Present</span>
-                        <h6 class=""> BSc in Geographical Information Science (Hons)</h6>
-                        <p class="mt-5"> text text text </p>
+                <div class="col-12 col-lg-6">
+                    <div class="education-container">
+                        <h4 class="d-flex mt-md-5 justify-content-start">University of
+                            Peradeniye -
+                            Sri
+                            Lanka</h4>
+                        <span class="education-date d-none d-sm-block"> February 2020 - Present</span>
+                        <h6 class="mt-2 mt-sm-0 d-flex justify-content-start"> BSc in
+                            Geographical
+                            Information
+                            Science (Hons)</h6>
+                        <p class="mt-4"> text text text </p>
                     </div>
                 </div>
 
@@ -227,6 +227,7 @@
                 </div>
                 <div class="col-10 ">
                     <ul>
+                        <li>Leaflet</li>
                         <li>ESRI ArcGIS</li>
                         <li>QGIS</li>
                         <li>Microsoft Access</li>
@@ -256,12 +257,15 @@
 
     <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
         <div class="container text-center">
-            <small>Copyright &copy; 2021 Thiwanka Kauhsal</small>
+            <small>Copyright &copy; 2021 Thiwanka Kaushal</small>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="lib/js/jquery.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
     <script src="lib/js/script.js"></script>
 
 </body>

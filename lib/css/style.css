@@ -11,62 +11,113 @@
     font-family: KaushanScript;
     src: url(../font/KaushanScript-Regular.otf);
 }
-/*::::::::::::::::::::::::::::::::::::::::::::::::::::Bootstrap 4 breakpoints*/
-/* Small devices (landscape phones, 544px and up) */
-/*1rem = 16px*/
-@media (min-width: 544px) {  h1 {font-size:1.5rem;} }
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  h1 {font-size:2rem;} }
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { h1 {font-size:2.5rem;} }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  h1 {font-size:3rem;} }
-/*::::::::::::::::::::::::::::::::::::::::::::::::::::Custom media queries*/
-/* Set width to make card deck cards 100% width */
-/* @media (min-width: 950px) and (max-width:1100px) { h1 {font-size:2.75rem;color:red;} } */
-@media (max-width: 544px) {  h3 {font-size:1.1rem;} }
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::Bootstrap 4 breakpoints
+1rem = 16px
+Small devices (landscape phones, 544px and up)
+Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint
+Large devices (desktops, 992px and up)
+Extra large devices (large desktops, 1200px and up)
+::::::::::::::::::::::::::::::::::::::::::::::::::::Custom media queries
+*/
+
+/* @media (max-width: 544px) {  h3 {font-size:1.1rem;} }
+@media (min-width: 544px) and (max-width:768px) {  h3 {font-size:1.2rem;} }
+@media (min-width: 768px) and (max-width:992px) {  h3 {font-size:1.3rem;} }
+@media (min-width: 992px) and (max-width:1200px) {  h3 {font-size:1.4rem;} }
+@media (min-width: 1200px) {  h3 {font-size:1.4rem;} }
+
+@media (max-width: 544px) {  h4 {font-size:1.2rem;} }
+@media (min-width: 544px) and (max-width:768px) {  h4 {font-size:1.2rem;} }
+@media (min-width: 768px) and (max-width:992px) {  h4 {font-size:1.3rem;} }
+@media (min-width: 992px) and (max-width:1200px) {  h4 {font-size:1.4rem;} }
+@media (min-width: 1200px) {  h4 {font-size:1.4rem;} } */
+
+/* @media (min-width: 544px) and (max-width:768px) {
+    .education-date {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) and (max-width:992px) {
+    .education-date {
+        font-size: 13px;
+    }
+}
+@media (min-width: 992px) and (max-width:1200px) {
+    .education-date {
+        font-size: 13px;
+    }
+}
+@media (min-width: 1200px) {
+    .education-date {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-fixed-top{
+      border-radius: 0;
+    }
+} */
+
 
 
 .heading{
-    font-family: KaushanScript !important; 
-    font-size: calc(100% + 1vw + 1vh);
+    font-family: KaushanScript !important;
+    /* font-size: clamp(16px, 5vw, 34px)  */
 }
 .nav-item{
     font-family: NotoSans !important;  
 }
+.navbar {
+    opacity: 1;
+    /* transition: opacity 0.8s ease; */
+    transition: background-color 0.5s ease-in-out;
+}
+.nav-mouseover{
+    opacity: 1;
+    background-color: var(--dark);
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+    color: var(--yellow);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--yellow);
+}
+.nav-item>svg:hover{
+    fill:var(--yellow);
+}
+
 .carousel-item {
     object-fit: cover;
     width: 100% !important;
     height: 93vh;
 }
-.navbar {
-    opacity: 1;
-    /* transition: opacity 0.8s ease; */
-    transition: background-color 0.9s ease;
-}
+
 
 #about{
     color: #dcd9d9;
-    background-color: #2f3241;
+    background-color: var(--dark);
 }
 #education {
-    color: #2f3241;
+    color: var(--dark);
     /* background-color: #dcd9d9; */
-    background-color: #fff;
+    background-color: var(--light);
     padding-top: 75px;
     padding-bottom: 70px;
 }
 #projects{
-    color: #2f3241;
+    /* color: #2f3241; */
+    color: var(--dark);
     background-color: #f2f2f5;
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
 }
 #skills{
-    color: #2f3241;
+    /* color: #2f3241; */
     /* background-color: #dcd9d9; */
     background-color: #f2f2f5;
+    color: var(--dark);
 }
 #skills ul {
     display: block;
@@ -78,7 +129,8 @@
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
+    /* color: #374054; */
+    color: var(--dark);
     background: #e4e4ea;
     list-style: none;
     cursor: default;
@@ -87,28 +139,30 @@
 .education-container span {
     color: #74808a;
     float: right;
-    font-size: 1.2em;
+}
+#education img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 120px;
 }
 .navbar-bg-change {
     /* pointer-events: none; */
     opacity: 1;
-    background-color: #2f3241;
+    background-color: var(--dark);
 }
 .logo-name {
     font-family: Agustina !important;
     font-weight: 700;
     padding: 10px 10px;
 }
-.nav-mouseover{
-    opacity: 1;
-    background-color: #21232e;
-}
+
 .project {
-    position: relative;
-    max-width: 900px;
+    /* position: relative;
+    max-width: 900px; */
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: var(--light);
     border-radius: 4px;
 }
 .shadow-large {
@@ -119,7 +173,7 @@
     max-height: 350px;
 }
 .project-info {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     padding: 15px;
