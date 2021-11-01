@@ -11,7 +11,12 @@
     font-family: KaushanScript;
     src: url(../font/KaushanScript-Regular.otf);
 }
-/*
+:root {
+    --gray-light: #a0a4a8;
+    --white-gray: #f2f2f5;
+}
+
+/*https://www.youtube.com/watch?v=6Ovw43Dkp44
 ::::::::::::::::::::::::::::::::::::::::::::::::::::Bootstrap 4 breakpoints
 1rem = 16px
 Small devices (landscape phones, 544px and up)
@@ -59,43 +64,78 @@ Extra large devices (large desktops, 1200px and up)
     }
 } */
 
-
-
-.heading{
-    font-family: KaushanScript !important;
-    /* font-size: clamp(16px, 5vw, 34px)  */
+/* Banner */
+.hero {
+    background-attachment: fixed;
+    transition: transform 0.5s ease-in-out;
 }
-.nav-item{
-    font-family: NotoSans !important;  
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
 }
+.hero .container-fluid {
+    z-index: 10;
+}
+
+/* Scroll Anim*/
+.scroll .page-header {
+    background: var(--red);
+}  
+.scroll .hero {
+    transform: scale(0.98);
+}
+
+/* Navigation */
 .navbar {
     opacity: 1;
-    /* transition: opacity 0.8s ease; */
     transition: background-color 0.5s ease-in-out;
+}
+.navbar-header > a,
+.navbar-header > .navbar-brand{
+    color: var(--white-gray);
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--gray-light);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--yellow);
+}
+.nav-item > a{
+    font-family: NotoSans !important;  
 }
 .nav-mouseover{
     opacity: 1;
     background-color: var(--dark);
 }
-.navbar-dark .navbar-nav .nav-link:focus{
-    color: var(--yellow);
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: var(--yellow);
-}
-.nav-item>svg:hover{
-    fill:var(--yellow);
+.navbar-bg-change {
+    /* pointer-events: none; */
+    opacity: 1;
+    background-color: var(--dark);
 }
 
-.carousel-item {
+
+.heading{
+    font-family: KaushanScript !important;
+}
+/* .carousel-item {
     object-fit: cover;
     width: 100% !important;
     height: 93vh;
-}
+} */
 
 
 #about{
-    color: #dcd9d9;
+    /* color: #dcd9d9; */
+    color: var(--white-gray);
     background-color: var(--dark);
 }
 #education {
@@ -108,7 +148,7 @@ Extra large devices (large desktops, 1200px and up)
 #projects{
     /* color: #2f3241; */
     color: var(--dark);
-    background-color: #f2f2f5;
+    background-color: var(--white-gray);
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
@@ -116,7 +156,7 @@ Extra large devices (large desktops, 1200px and up)
 #skills{
     /* color: #2f3241; */
     /* background-color: #dcd9d9; */
-    background-color: #f2f2f5;
+    background-color: var(--white-gray);
     color: var(--dark);
 }
 #skills ul {
@@ -146,16 +186,12 @@ Extra large devices (large desktops, 1200px and up)
     transform: translateY(-50%);
     height: 120px;
 }
-.navbar-bg-change {
-    /* pointer-events: none; */
-    opacity: 1;
-    background-color: var(--dark);
-}
-.logo-name {
+
+/* .logo-name {
     font-family: Agustina !important;
     font-weight: 700;
     padding: 10px 10px;
-}
+} */
 
 .project {
     /* position: relative;
