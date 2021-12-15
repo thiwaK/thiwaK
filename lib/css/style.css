@@ -99,6 +99,20 @@ Extra large devices (large desktops, 1200px and up)
     opacity: 1;
     transition: background-color 0.5s ease-in-out;
 }
+
+@media (min-width: 768px) and (max-width:992px) {  .navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+} }
+@media (min-width: 992px) and (max-width:1200px) { .navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+} }
+@media (min-width: 1200px) {  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+} }
+
 .navbar-header > a,
 .navbar-header > .navbar-brand{
     color: var(--white-gray);
@@ -182,9 +196,9 @@ Extra large devices (large desktops, 1200px and up)
 }
 #education img {
     position: relative;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
-    height: 120px;
+    height: 60px;
 }
 
 /* .logo-name {
@@ -213,4 +227,89 @@ Extra large devices (large desktops, 1200px and up)
     top: 50%;
     transform: translateY(-50%);
     padding: 15px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* CARDs */
+.card-text{
+    font-size: 15px;
+    margin: 30px 10px 0px 10px;
+}
+.card-header{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 20px;
+}
+.card {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* CONTACT */
+#contact{
+    background: var(--light);
+}
+.contact-form{
+    background: var(--light);
+   padding-bottom: 100px;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: var(--red);
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    /* background: #dc3545; */
+    background-color: var(--gray-light);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
 }
