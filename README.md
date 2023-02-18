@@ -11,4 +11,4 @@ Let's chat about all things geospatial and tech! Feel free to reach out.
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thiwaK&layout=compact&theme=graywhite&langs_count=8)
  
-![](https://img.shields.io/badge/Love-Spatial Data Analysis-brightgreen?style=flat-square) ![](https://img.shields.io/badge/-Programming-brightgreen?style=flat-square) ![](https://img.shields.io/badge/-Machine Learining-brightgreen?style=flat-square) ![](https://img.shields.io/badge/-Hardware Hacking-brightgreen?style=flat-square) 
+![](https://img.shields.io/badge/Love-SpatialDataAnalysis-brightgreen?style=flat-square) ![](https://img.shields.io/badge/-Programming-brightgreen?style=flat-square) ![](https://img.shields.io/badge/-MachineLearining-brightgreen?style=flat-square) ![](https://img.shields.io/badge/-HardwareHacking-brightgreen?style=flat-square) 
