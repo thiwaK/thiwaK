@@ -1,5 +1,5 @@
 <h1 align="center">Thiwanka Kaushal</h1>
-<h3 align="center">GIS Developer | Remote Sensing Analyst | Spatial Data Solutions Specialist</h3>
+<h3 align="center">Geospatial Solutions Engineer | Cartographer | Python Dev</h3>
 
 <hr/>
 
