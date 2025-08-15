@@ -3,8 +3,8 @@
 <hr/>
 
 <!-- Social Media -->
-<div style="display:flex; justify-content:space-between; align-items: center;">
-<span align="center">
+<p style="display:flex; justify-content:space-between; align-items: center;">
+<i align="center">
   <!-- Email -->
   <a href="mailto:thiwanka.munasinghe@hotmail.com" aria-label="Email" title="Email" align="center" width="100" style="text-decoration: none;" >
     <img src="assets/image/email.jpg" width="22" height="25" alt="Email" style="vertical-align: bottom; margin-right: 0.4rem;" /> 
@@ -24,14 +24,14 @@
   <a href="https://medium.com/@thiwaK" aria-label="Medium" title="Medium" align="center" width="100" style="text-decoration: none;">
     <img src="assets/image/medium.jpg" width="22" height="22" alt="Medium" style="vertical-align: bottom; margin-right: 0.4rem;"/>
   </a>
-</span>
+</i>
 
 <!-- Profile Views Badge -->
 <!-- Changed the github username from thiwanka-kaushal to thiwaK. When I change, there was 2598 views. -->
-<span align="right">
+<i align="right">
   <img src="https://komarev.com/ghpvc/?username=thiwaK&color=blue&abbreviated=true&style=flat-square&base=2598" alt="Profile views badge" style="vertical-align:middle;margin-right:0px;" />
-</span>
-</div>
+</i>
+</p>
 
 
 ### 🗺️ Overview
