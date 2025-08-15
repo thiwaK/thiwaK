@@ -7,22 +7,22 @@
 <span align="center">
   <!-- Email -->
   <a href="mailto:thiwanka.munasinghe@hotmail.com" aria-label="Email" title="Email" align="center" width="100" style="text-decoration: none;" >
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-email-1779762-1513576.png?f=webp&w=512" width="22" height="26" alt="Email" style="vertical-align: middle; margin-right: 0.3rem;" /> 
+    <img src="assets/image/email.jpg" width="22" height="25" alt="Email" style="vertical-align: bottom; margin-right: 0.4rem;" /> 
   </a>
 
   <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/thiwankamunasinghe" aria-label="LinkedIn" title="LinkedIn" align="center" width="100" style="text-decoration: none;">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-1464529-1239440.png?f=webp&w=512" width="22" height="22" alt="LinkedIn" style="vertical-align: middle; margin-right: 0.3rem;"/> 
+    <img src="assets/image/linkedin.jpg" width="22" height="21" alt="LinkedIn" style="vertical-align: bottom; margin-right: 0.4rem;"/> 
   </a>
 
   <!-- GitHub -->
   <a href="https://github.com/thiwaK" aria-label="GitHub" title="GitHub" align="center" width="100" style="text-decoration: none;">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-github-170-1175028.png?f=webp&w=512" width="22" height="21" alt="GitHub" style="vertical-align: middle; margin-right: 0.3rem;"/>
+    <img src="assets/image/github.jpg" width="22" height="22" alt="GitHub" style="vertical-align: bottom; margin-right: 0.4rem;"/>
   </a>
 
   <!-- Medium -->
   <a href="https://medium.com/@thiwaK" aria-label="Medium" title="Medium" align="center" width="100" style="text-decoration: none;">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-medium-3855923-3201557.png?f=webp&w=512" width="22" height="22" alt="Medium" style="vertical-align: middle; margin-right: 0.3rem;"/>
+    <img src="assets/image/medium.jpg" width="22" height="22" alt="Medium" style="vertical-align: bottom; margin-right: 0.4rem;"/>
   </a>
 </span>
 
