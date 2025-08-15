@@ -3,34 +3,26 @@
 <hr/>
 
 <!-- Social Media -->
-<div style="display:flex; justify-content:space-between; align-items:center;">
-<span align="left">
+<div style="display:flex; justify-content:space-between; align-items: center;">
+<span align="center">
   <!-- Email -->
-  <a href="mailto:thiwanka.munasinghe@hotmail.com" aria-label="Email" title="Email">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="gray" style="vertical-align:middle;margin-right:12px;">
-      <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 2v.01L12 13 4 6.01V6h16ZM4 18V8l8 7 8-7v10H4Z"/>
-    </svg>
+  <a href="mailto:thiwanka.munasinghe@hotmail.com" aria-label="Email" title="Email" align="center" width="100" style="text-decoration: none;" >
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-email-1779762-1513576.png?f=webp&w=512" width="22" height="26" alt="Email" style="vertical-align: middle; margin-right: 0.3rem;" /> 
   </a>
 
   <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/thiwankamunasinghe" aria-label="LinkedIn" title="LinkedIn">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="gray" style="vertical-align:middle;margin-right:12px;">
-      <path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2ZM8.34 18H6V10.5h2.34V18ZM7.17 9.38a1.35 1.35 0 1 1 0-2.7 1.35 1.35 0 0 1 0 2.7ZM18 18h-2.33v-3.86c0-1.06-.38-1.78-1.33-1.78-.73 0-1.16.49-1.35.96-.07.17-.09.41-.09.65V18h-2.33s.03-6.74 0-7.5H12v1.06c.31-.48.87-1.16 2.13-1.16 1.56 0 2.87 1.02 2.87 3.22V18Z"/>
-    </svg>
+  <a href="https://www.linkedin.com/in/thiwankamunasinghe" aria-label="LinkedIn" title="LinkedIn" align="center" width="100" style="text-decoration: none;">
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-1464529-1239440.png?f=webp&w=512" width="22" height="22" alt="LinkedIn" style="vertical-align: middle; margin-right: 0.3rem;"/> 
   </a>
 
   <!-- GitHub -->
-  <a href="https://github.com/thiwaK" aria-label="GitHub" title="GitHub">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="gray" style="vertical-align:middle;margin-right:12px;">
-      <path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.07 3.29 9.36 7.86 10.88.58.1.79-.25.79-.57v-2.1c-3.2.7-3.87-1.37-3.87-1.37-.53-1.35-1.3-1.71-1.3-1.71-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.74 1.26 3.41.96.11-.77.41-1.26.75-1.55-2.55-.29-5.23-1.3-5.23-5.77 0-1.28.46-2.33 1.2-3.15-.12-.29-.52-1.47.12-3.06 0 0 .98-.31 3.2 1.2a11.1 11.1 0 0 1 5.82 0c2.22-1.51 3.2-1.2 3.2-1.2.64 1.59.24 2.77.12 3.06.75.82 1.2 1.87 1.2 3.15 0 4.49-2.69 5.48-5.25 5.77.42.36.8 1.07.8 2.17v3.21c0 .32.21.68.8.57A11.51 11.51 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/>
-    </svg>
+  <a href="https://github.com/thiwaK" aria-label="GitHub" title="GitHub" align="center" width="100" style="text-decoration: none;">
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-github-170-1175028.png?f=webp&w=512" width="22" height="21" alt="GitHub" style="vertical-align: middle; margin-right: 0.3rem;"/>
   </a>
 
   <!-- Medium -->
-  <a href="https://medium.com/@thiwaK" aria-label="Medium" title="Medium">
-    <svg width="22" height="22" viewBox="0 0 1043.63 592.71" fill="gray" style="vertical-align:middle;">
-      <path d="M588.67 296.35c0 163.64-131.63 296.35-294.34 296.35S0 460 0 296.35 131.63 0 294.33 0s294.34 132.71 294.34 296.35zM911.64 296.35c0 154.32-65.82 279.49-147.02 279.49-81.21 0-147.03-125.17-147.03-279.49 0-154.32 65.82-279.49 147.03-279.49 81.2 0 147.02 125.17 147.02 279.49zM1043.63 296.35c0 140.58-23.13 254.56-51.64 254.56-28.5 0-51.63-113.98-51.63-254.56 0-140.57 23.13-254.56 51.63-254.56 28.51 0 51.64 113.99 51.64 254.56z"/>
-    </svg>
+  <a href="https://medium.com/@thiwaK" aria-label="Medium" title="Medium" align="center" width="100" style="text-decoration: none;">
+    <img src="https://cdn.iconscout.com/icon/free/png-512/free-medium-3855923-3201557.png?f=webp&w=512" width="22" height="22" alt="Medium" style="vertical-align: middle; margin-right: 0.3rem;"/>
   </a>
 </span>
 
@@ -58,8 +50,8 @@ I work at the intersection of **GIS**, **remote sensing**, and **spatial data en
 
 ### 🏆 Trophy Case
 
-<i align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=thiwaK&theme=&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="thiwaK"/>
+<i align="center" title="Trophy Case">
+  <img src="https://github-profile-trophy.vercel.app/?username=thiwaK&theme=flat&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophy Case"/>
 </i>
 
 
