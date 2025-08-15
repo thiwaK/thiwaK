@@ -2,26 +2,27 @@
 <h3 align="center">Geospatial Solution Engineer | Cartographer | Full-Stack Dev</h3>
 <hr/>
 
+
 <!-- Social Media -->
 <p style="display:flex; justify-content:space-between; align-items: center;">
 <i align="center">
   <!-- Email -->
-  <a href="mailto:thiwanka.munasinghe@hotmail.com" aria-label="Email" title="Email" align="center" width="100" style="text-decoration: none;" >
+  <a href="mailto:thiwanka.munasinghe@hotmail.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Email" title="Email" align="center" width="100" style="text-decoration: none;" >
     <img src="assets/image/email.jpg" width="22" height="25" alt="Email" style="vertical-align: bottom; margin-right: 0.4rem;" /> 
   </a>
 
   <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/thiwankamunasinghe" aria-label="LinkedIn" title="LinkedIn" align="center" width="100" style="text-decoration: none;">
+  <a href="https://www.linkedin.com/in/thiwankamunasinghe" target="_blank" rel="noopener noreferrer nofollow" aria-label="LinkedIn" title="LinkedIn" align="center" width="100" style="text-decoration: none;">
     <img src="assets/image/linkedin.jpg" width="22" height="21" alt="LinkedIn" style="vertical-align: bottom; margin-right: 0.4rem;"/> 
   </a>
 
   <!-- GitHub -->
-  <a href="https://github.com/thiwaK" aria-label="GitHub" title="GitHub" align="center" width="100" style="text-decoration: none;">
+  <a href="https://github.com/thiwaK" target="_blank" rel="noopener noreferrer nofollow" aria-label="GitHub" title="GitHub" align="center" width="100" style="text-decoration: none;">
     <img src="assets/image/github.jpg" width="22" height="22" alt="GitHub" style="vertical-align: bottom; margin-right: 0.4rem;"/>
   </a>
 
   <!-- Medium -->
-  <a href="https://medium.com/@thiwaK" aria-label="Medium" title="Medium" align="center" width="100" style="text-decoration: none;">
+  <a href="https://medium.com/@thiwaK" target="_blank" rel="noopener noreferrer nofollow" aria-label="Medium" title="Medium" align="center" width="100" style="text-decoration: none;">
     <img src="assets/image/medium.jpg" width="22" height="22" alt="Medium" style="vertical-align: bottom; margin-right: 0.4rem;"/>
   </a>
 </i>
