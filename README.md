@@ -2,37 +2,10 @@
 <h3 align="center">Geospatial Solution Engineer | Cartographer | Full-Stack Dev</h3>
 <hr/>
 
-
 <!-- Social Media -->
-<p style="display:flex; justify-content:space-between; align-items: center;">
-<i align="center">
-  <!-- Email -->
-  <a href="mailto:thiwanka.munasinghe@hotmail.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Email" title="Email" align="center" width="100" style="text-decoration: none;" >
-    <img src="assets/image/email.jpg" width="22" height="25" alt="Email" style="vertical-align: bottom; margin-right: 0.4rem;" /> 
-  </a>
 
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/thiwankamunasinghe" target="_blank" rel="noopener noreferrer nofollow" aria-label="LinkedIn" title="LinkedIn" align="center" width="100" style="text-decoration: none;">
-    <img src="assets/image/linkedin.jpg" width="22" height="21" alt="LinkedIn" style="vertical-align: bottom; margin-right: 0.4rem;"/> 
-  </a>
+[![LinkedIn](https://img.shields.io/badge/%C2%A0-blue?style=social&logoColor=blue&logo=invision&color=blue)](https://www.linkedin.com/in/thiwankamunasinghe) [![Medium](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=medium&color=blue)](https://medium.com/@thiwaK) [![Email](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=gmail&color=blue)](mailto:thiwanka.munasinghe@hotmail.com) [![Telegram](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=telegram&color=blue)](https://t.me/thiwaK) ![ProfileViews](https://komarev.com/ghpvc/?username=thiwaK&color=blue&abbreviated=true&style=flat-square&base=2598)
 
-  <!-- GitHub -->
-  <a href="https://github.com/thiwaK" target="_blank" rel="noopener noreferrer nofollow" aria-label="GitHub" title="GitHub" align="center" width="100" style="text-decoration: none;">
-    <img src="assets/image/github.jpg" width="22" height="22" alt="GitHub" style="vertical-align: bottom; margin-right: 0.4rem;"/>
-  </a>
-
-  <!-- Medium -->
-  <a href="https://medium.com/@thiwaK" target="_blank" rel="noopener noreferrer nofollow" aria-label="Medium" title="Medium" align="center" width="100" style="text-decoration: none;">
-    <img src="assets/image/medium.jpg" width="22" height="22" alt="Medium" style="vertical-align: bottom; margin-right: 0.4rem;"/>
-  </a>
-</i>
-
-<!-- Profile Views Badge -->
-<!-- Changed the github username from thiwanka-kaushal to thiwaK. When I change, there was 2598 views. -->
-<i align="right">
-  <img src="https://komarev.com/ghpvc/?username=thiwaK&color=blue&abbreviated=true&style=flat-square&base=2598" alt="Profile views badge" style="vertical-align:middle;margin-right:0px;" />
-</i>
-</p>
 
 
 ### 🗺️ Overview
@@ -54,8 +27,6 @@ I work at the intersection of **GIS**, **remote sensing**, and **spatial data en
 <i align="center" title="Trophy Case">
   <img src="https://github-profile-trophy.vercel.app/?username=thiwaK&theme=flat&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophy Case"/>
 </i>
-
-
 
 ### 💻 Languages and Tools
 
