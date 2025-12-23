@@ -1,8 +1,9 @@
-<h1 align="center">Thiwanka Kaushal</h1>
-<h3 align="center">Geospatial Solution Engineer | Cartographer | Full-Stack Dev</h3>
+<h1 align="center">Thiwanka Kaushal Munasinghe</h1>
+<h3 align="center">Junior GIS Analyst | Cartographer | Full-Stack Dev</h3>
 <hr/>
 
 <!-- Social Media -->
+<!-- Username changed from 'thiWanka-kaushal' to 'thiwaK'. Profile views at time of change: 2,598. -->
 
 [![LinkedIn](https://img.shields.io/badge/%C2%A0-blue?style=social&logoColor=blue&logo=invision&color=blue)](https://www.linkedin.com/in/thiwankamunasinghe) [![Medium](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=medium&color=blue)](https://medium.com/@thiwaK) [![Email](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=gmail&color=blue)](mailto:thiwanka.munasinghe@hotmail.com) [![Telegram](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=telegram&color=blue)](https://t.me/thiwaK) ![ProfileViews](https://komarev.com/ghpvc/?username=thiwaK&color=blue&abbreviated=true&style=flat-square&base=2598)
 
@@ -10,14 +11,14 @@
 
 ### 🗺️ Overview
 
-I work at the intersection of **GIS**, **remote sensing**, and **spatial data engineering**, developing tools, workflows, and platforms that turn geospatial data into decision-ready products.
+I work at the intersection of **GIS**, **remote sensing**, and **spatial data management**, developing tools, workflows, and platforms that turn geospatial data into decision-ready products.
 
 - **Based in:** Gampaha, Sri Lanka 🇱🇰  
 - **Current work:** Building my GIS portfolio and maintaining [**OpenGISLK**](https://github.com/thiwaK/open-gis-lk)  
-- **Skills in action:** QGIS plugin development, automated geospatial processing, spatial data analysis, cartographic design, web mapping  
-- **Looking to:** Collaborate on open-source GIS projects, large-scale spatial data pipelines, and web-based mapping solutions  
-- **Researching:** Advanced geospatial automation, cloud GIS, and GeoAI  
-- **Fun fact:** I reverse-engineer systems to understand how they work  
+- **Skills in action:** Automated geospatial processing, spatial data analysis, cartographic design, web mapping  
+- **Looking to:** Collaborate on open-source GIS projects, spatial data pipelines, and web-based mapping solutions  
+- **Researching:** Cloud GIS and GeoAI  
+- **Fun fact:** I reverse-engineer systems/tools to understand how they work  
 
 
 ---
