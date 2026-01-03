@@ -1,5 +1,5 @@
 <h1 align="center">Thiwanka Kaushal Munasinghe</h1>
-<h3 align="center">Junior GIS Analyst | Cartographer | Full-Stack Dev</h3>
+<h3 align="center">GIS Analyst | Cartographer | Python Dev</h3>
 <hr/>
 
 <!-- Social Media -->
@@ -84,8 +84,8 @@ I work at the intersection of **GIS**, **remote sensing**, and **spatial data ma
       <br>CSS
     </td>
     <td align="center"  width="100">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="50" height="45" alt="Bootstrap5" title="Bootstrap5"/>
-      <br>Bootstrap
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="50" height="45" alt="Tailwind CSS" title="Tailwind CSS"/>
+      <br>Tailwind
     </td>
            <td align="center" width="100">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="45" height="45" alt="Next.js" title="Next.js"/>
