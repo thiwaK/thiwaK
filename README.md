@@ -26,7 +26,11 @@ I work at the intersection of **GIS**, **remote sensing**, **spatial data engine
 <!-- <i align="center" title="Trophy Case">
   <img src="https://github-trophies.vercel.app/?username=thiwaK&theme=flat&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophy Case"/>
 </i> -->
-![My GitHub Trophies](assets/trophies.svg)
+<p align="center">
+  <i title="Trophy Case">
+    <img src="assets/trophies.svg" alt="Trophy Case"/>
+  </i>
+</p>
 
 
 
@@ -147,15 +151,14 @@ I work at the intersection of **GIS**, **remote sensing**, **spatial data engine
 ### 🎀 GitHub Stats
 
 <p align="center">
+	<img height="50%" width="auto" src="assets/stats.svg" alt="Status Image">
+	<img height="50%" width="auto" src ="assets/languages.svg" alt="Languages Image">
 
-![My GitHub Stats](assets/stats.svg)
 
-![My GitHub Languages](assets/languages.svg)
 
 <!-- <img src ="https://streak-stats.demolab.com/?user=thiwaK&hide_border=true&background=00000000&stroke=5fa0fe&ring=5fa0fe&fire=5fa0fe&currStreakLabel=5fa0fe&sideNums=ffffff&currStreakNum=ffffff&dates=AAAAAA&sideLabels=ffffff"> -->
 
 <!-- <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=thiwaK&short_numbers=true" alt="GitHub Streak" /></a> -->
-</p>
 
 
 <!--   
@@ -163,4 +166,7 @@ I work at the intersection of **GIS**, **remote sensing**, **spatial data engine
   <br>
   <a href="https://www.buymeacoffee.com/thiwaK"><img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="thiwaK-buymeacoffe" />     </a>  
 -->
+
+
+</p>
 
