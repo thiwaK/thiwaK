@@ -9,7 +9,7 @@
 
 
 
-### ## 🗺️ Overview
+### 🗺️ Overview
 
 I work at the intersection of **GIS**, **remote sensing**, **spatial data engineering**, and **software development**, building tools and automation that transform complex geospatial data into scalable, efficient, and decision-ready solutions.
 
@@ -28,7 +28,7 @@ I work at the intersection of **GIS**, **remote sensing**, **spatial data engine
 </i> -->
 <p align="center">
   <i title="Trophy Case">
-    <img src="assets/trophies.svg" alt="Trophy Case"/>
+    <img src="assets/trophies.svg" alt="Trophy Case" height="75%"/>
   </i>
 </p>
 
