@@ -1,0 +1,51 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    # Runs automatically every 3 days at midnight (UTC)
+    - cron: '0 0 */3 * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows you to manually trigger the run anytime
+
+permissions:
+  contents: write # Grants permission to commit the saved SVG to your repo
+
+jobs:
+  fetch-svgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch SVGs
+        run: |
+          # Create an assets folder if it doesn't exist
+          mkdir -p assets
+          
+          # Fetch the SVG and handle URL encoding safely
+          curl -sL "https://github-trophies.vercel.app/?username=thiwaK&theme=flat&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" -o assets/trophies.svg
+          
+          # Fetch GitHub Stats Card (with quotes around the URL to prevent shell parsing errors)
+          curl -sL "https://readme-stats-fast.vercel.app/api?username=thiwaK&show_icons=true&count_private=true&hide_border=true&hide=issues,contribs&bg_color=00000000&title_color=5fa0fe&text_color=ffffff&icon_color=5fa0fe" -o assets/stats.svg
+          
+          # Fetch the languages SVG
+          curl -sL "https://readme-stats-fast.vercel.app/api/top-langs/?username=thiwaK&layout=compact&hide_border=true&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php&exclude_repo=Malware-Inspect&title_color=5fa0fe&text_color=ffffff" -o assets/languages.svg
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          
+          git add assets/trophies.svg assets/stats.svg assets/languages.svg
+          
+          if git diff --staged --quiet; then
+            echo "No changes in SVGs."
+          else
+            git commit -m "chore: update profile SVGs"
+            git push
+          fi
+
+

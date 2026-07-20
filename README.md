@@ -1,33 +1,35 @@
 <h1 align="center">Thiwanka Kaushal Munasinghe</h1>
-<h3 align="center">GIS Analyst | Cartographer | Python Dev</h3>
+<h3 align="center">Geospatial Data Engineer | Geospatial Developer</h3>
 <hr/>
 
 <!-- Social Media -->
 <!-- Username changed from 'thiWanka-kaushal' to 'thiwaK'. Profile views at time of change: 2,598. -->
 
-[![LinkedIn](https://img.shields.io/badge/%C2%A0-blue?style=social&logoColor=blue&logo=invision&color=blue)](https://www.linkedin.com/in/thiwankamunasinghe) [![Medium](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=medium&color=blue)](https://medium.com/@thiwaK) [![Email](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=gmail&color=blue)](mailto:thiwanka.munasinghe@hotmail.com) [![Telegram](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=telegram&color=blue)](https://t.me/thiwaK) ![ProfileViews](https://komarev.com/ghpvc/?username=thiwaK&color=blue&abbreviated=true&style=flat-square&base=2598)
+ [![Medium](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=medium&color=blue)](https://medium.com/@thiwaK) [![Email](https://img.shields.io/badge/%C2%A0-blue?style=social&logo=gmail&color=blue)](mailto:thiwanka.munasinghe@hotmail.com)  ![ProfileViews](https://komarev.com/ghpvc/?username=thiwaK&color=blue&abbreviated=true&style=flat-square&base=2598)
 
 
 
-### 🗺️ Overview
+### ## 🗺️ Overview
 
-I work at the intersection of **GIS**, **remote sensing**, and **spatial data management**, developing tools, workflows, and platforms that turn geospatial data into decision-ready products.
+I work at the intersection of **GIS**, **remote sensing**, **spatial data engineering**, and **software development**, building tools and automation that transform complex geospatial data into scalable, efficient, and decision-ready solutions.
 
-- **Based in:** Gampaha, Sri Lanka 🇱🇰  
-- **Current work:** Building my GIS portfolio and maintaining [**OpenGISLK**](https://github.com/thiwaK/open-gis-lk)  
-- **Skills in action:** Automated geospatial processing, spatial data analysis, cartographic design, web mapping  
-- **Looking to:** Collaborate on open-source GIS projects, spatial data pipelines, and web-based mapping solutions  
-- **Researching:** Cloud GIS and GeoAI  
-- **Fun fact:** I reverse-engineer systems/tools to understand how they work  
+* 🌍 **Based in:** Gampaha, Sri Lanka 🇱🇰
+* 💼 **Current focus:** Geospatial automation, GIS software development, and spatial ETL workflows
+* 🛠️ **Working with:** Python, FME Form, PostGIS, ArcGIS Pro SDK, Web GIS, and spatial databases
+* 🤝 **Interested in:** Open-source GIS, geospatial developer tools, workflow automation, and enterprise GIS solutions
+* 📚 **Currently learning:** Cloud-native GIS architectures, scalable geospatial systems, and AI-assisted geospatial workflows
 
 
----
 
 ### 🏆 Trophy Case
 
-<i align="center" title="Trophy Case">
-  <img src="https://github-profile-trophy.vercel.app/?username=thiwaK&theme=flat&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophy Case"/>
-</i>
+<!-- <i align="center" title="Trophy Case">
+  <img src="https://github-trophies.vercel.app/?username=thiwaK&theme=flat&no-frame=true&margin-w=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophy Case"/>
+</i> -->
+![My GitHub Trophies](assets/trophies.svg)
+
+
+
 
 ### 💻 Languages and Tools
 
@@ -145,11 +147,14 @@ I work at the intersection of **GIS**, **remote sensing**, and **spatial data ma
 ### 🎀 GitHub Stats
 
 <p align="center">
-<img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api?username=thiwaK&show_icons=true&count_private=true&hide_border=true&hide=issues,contribs&bg_color=00000000&title_color=5fa0fe&text_color=ffffff&icon_color=5fa0fe">
 
-<img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=thiwaK&layout=compact&hide_border=true&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php&exclude_repo=Malware-Inspect&title_color=5fa0fe&text_color=ffffff">
+![My GitHub Stats](assets/stats.svg)
 
-<img src ="https://github-readme-streak-stats.herokuapp.com?user=thiwaK&hide_border=true&background=00000000&stroke=5fa0fe&ring=5fa0fe&fire=5fa0fe&currStreakLabel=5fa0fe&sideNums=ffffff&currStreakNum=ffffff&dates=AAAAAA&sideLabels=ffffff">
+![My GitHub Languages](assets/languages.svg)
+
+<!-- <img src ="https://streak-stats.demolab.com/?user=thiwaK&hide_border=true&background=00000000&stroke=5fa0fe&ring=5fa0fe&fire=5fa0fe&currStreakLabel=5fa0fe&sideNums=ffffff&currStreakNum=ffffff&dates=AAAAAA&sideLabels=ffffff"> -->
+
+<!-- <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=thiwaK&short_numbers=true" alt="GitHub Streak" /></a> -->
 </p>
 
 
